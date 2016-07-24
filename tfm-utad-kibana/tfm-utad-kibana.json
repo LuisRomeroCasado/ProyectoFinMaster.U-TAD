@@ -1,0 +1,518 @@
+[
+  {
+    "_id": "Trending-topic-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Trending topic Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Index-meetup\",\"panelIndex\":1,\"row\":1,\"size_x\":1,\"size_y\":4,\"type\":\"visualization\"},{\"col\":2,\"id\":\"Trending-topics-Map\",\"panelIndex\":2,\"row\":1,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Top-10-topics\",\"panelIndex\":3,\"row\":5,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"id\":\"Top-10-topics-by-country\",\"type\":\"visualization\",\"panelIndex\":4,\"size_x\":3,\"size_y\":5,\"col\":10,\"row\":1},{\"id\":\"Top-10-topics-counter\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":7,\"size_y\":4,\"col\":3,\"row\":5},{\"id\":\"Total-Topics\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":3,\"size_y\":3,\"col\":10,\"row\":6}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Responses Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":5,\"id\":\"Histogram-responses\",\"panelIndex\":1,\"row\":5,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":12,\"id\":\"Responses-Count\",\"panelIndex\":3,\"row\":1,\"size_x\":1,\"size_y\":4,\"type\":\"visualization\"},{\"col\":2,\"id\":\"Responses-Map\",\"panelIndex\":4,\"row\":1,\"size_x\":10,\"size_y\":4,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Responses-yes-slash-no\",\"panelIndex\":5,\"row\":5,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Top-10-countries-by-attendees\",\"panelIndex\":6,\"row\":5,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Top-10-countries-by-guests\",\"panelIndex\":7,\"row\":5,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Top-5-countries-by-responses\",\"panelIndex\":8,\"row\":9,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Index-meetup\",\"panelIndex\":9,\"row\":1,\"size_x\":1,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Responses-by-country\",\"panelIndex\":10,\"row\":9,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-5\":{\"vis\":{\"legendOpen\":true}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Groups-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Groups Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Index-meetup\",\"panelIndex\":1,\"row\":1,\"size_x\":1,\"size_y\":4,\"type\":\"visualization\"},{\"col\":2,\"id\":\"Groups-map\",\"panelIndex\":2,\"row\":1,\"size_x\":5,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Top-15-cities-by-group\",\"panelIndex\":5,\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Top-15-countries-by-group\",\"panelIndex\":6,\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":11,\"id\":\"Groups-ampersand-members\",\"panelIndex\":7,\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Events-by-group-and-country\",\"panelIndex\":8,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Attendees-by-group-and-country\",\"panelIndex\":9,\"row\":5,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Groups-by-date\",\"panelIndex\":10,\"row\":9,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"id\":\"Members-by-date\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":6,\"size_y\":4,\"col\":7,\"row\":9}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-2\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Events-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Events Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Index-meetup\",\"panelIndex\":1,\"row\":1,\"size_x\":1,\"size_y\":4,\"type\":\"visualization\"},{\"col\":2,\"id\":\"Events-map\",\"panelIndex\":2,\"row\":1,\"size_x\":8,\"size_y\":4,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Events-counts\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Top-15-cities-by-event\",\"panelIndex\":4,\"row\":5,\"size_x\":2,\"size_y\":5,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Top-15-countries-by-event\",\"panelIndex\":5,\"row\":5,\"size_x\":2,\"size_y\":5,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Responses-by-event-and-country\",\"panelIndex\":7,\"row\":5,\"size_x\":8,\"size_y\":5,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-7\":{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-Map",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses Map",
+      "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"customLabel\":\"Responses\"},\"schema\":\"metric\",\"type\":\"count\"},{\"id\":\"2\",\"params\":{\"autoPrecision\":true,\"customLabel\":\"\",\"field\":\"location\",\"mapCenter\":[-0.17578097424708533,0],\"mapZoom\":2,\"precision\":2},\"schema\":\"segment\",\"type\":\"geohash_grid\"}],\"listeners\":{},\"params\":{\"addTooltip\":true,\"heatBlur\":15,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatNormalizeData\":true,\"heatRadius\":25,\"isDesaturated\":true,\"mapType\":\"Shaded Circle Markers\",\"wms\":{\"enabled\":true,\"options\":{\"attribution\":\"\",\"format\":\"image/jpeg\",\"layers\":\"OSM-WMS\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.1.1\"},\"url\":\"http://ows-tile.terrestris.de/osm-basemap/service\"}},\"title\":\"Responses Map\",\"type\":\"tile_map\"}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Histogram-responses",
+    "_type": "visualization",
+    "_source": {
+      "title": "Histogram responses",
+      "visState": "{\"title\":\"Histogram_responses_Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Responses\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"date\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"response\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"no\":\"#E24D42\",\"yes\":\"#0A50A1\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-Count",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses Count",
+      "visState": "{\"title\":\"Responses_Count_Visualization\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"36\"},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Responses\"}},{\"id\":\"2\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"attendees\",\"customLabel\":\"Attendees\"}},{\"id\":\"3\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"guests\",\"customLabel\":\"Guests\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Trending-topics-Map",
+    "_type": "visualization",
+    "_source": {
+      "title": "Trending topics Map",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"wms\":{\"enabled\":true,\"url\":\"http://ows-tile.terrestris.de/osm-basemap/service\",\"options\":{\"version\":\"1.1.1\",\"layers\":\"OSM-WMS\",\"format\":\"image/jpeg\",\"transparent\":true,\"attribution\":\"\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"counter\",\"customLabel\":\"Counts\"}},{\"id\":\"2\",\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"precision\":2,\"customLabel\":\"Trending topics by country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_country_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-yes-slash-no",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses yes/no",
+      "visState": "{\"title\":\"Responses yes/no\",\"type\":\"pie\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"shareYAxis\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Responses\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"response\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Response\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"yes\":\"#0A50A1\",\"no\":\"#E24D42\"},\"legendOpen\":true},\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-countries-by-attendees",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 countries by attendees",
+      "visState": "{\"title\":\"Top 10 countries by attendees\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"attendees\",\"customLabel\":\"Attendees\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"country\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-by-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses by country",
+      "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"customLabel\":\"Responses by country\"},\"schema\":\"metric\",\"type\":\"count\"},{\"id\":\"2\",\"params\":{\"customLabel\":\"Responses by country\",\"field\":\"country\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":10},\"schema\":\"segment\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":false,\"shareYAxis\":true},\"title\":\"Response_By_Country_Visualization\",\"type\":\"pie\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-countries-by-guests",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 countries by guests",
+      "visState": "{\"title\":\"Top 10 countries by guests\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"guests\",\"customLabel\":\"Guests\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"country\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-5-countries-by-responses",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 5 countries by responses",
+      "visState": "{\"title\":\"Top 5 countries by responses\",\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Responses\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"country\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Countries\",\"row\":false}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"response\",\"size\":2,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Response\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"yes\":\"#0A50A1\",\"no\":\"#E24D42\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_rsvp_by_country\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-topics-counter",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 topics counter",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"counter\",\"customLabel\":\"Counter\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"date\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"timestamp\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"topic_name\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Topics\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_country_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-topics",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 topics",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"counter\",\"customLabel\":\"Count\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"topic_name\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Topic\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_global_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Members",
+    "_type": "visualization",
+    "_source": {
+      "title": "Members",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"members\",\"customLabel\":\"Members\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"group_country\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-15-countries-by-group",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 15 countries by group",
+      "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"customLabel\":\"groups\",\"field\":\"group_id\"},\"schema\":\"metric\",\"type\":\"cardinality\"},{\"id\":\"2\",\"params\":{\"customLabel\":\"Country\",\"field\":\"group_country\",\"order\":\"desc\",\"orderBy\":\"1\",\"size\":15},\"schema\":\"bucket\",\"type\":\"terms\"}],\"listeners\":{},\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false},\"title\":\"New Visualization\",\"type\":\"table\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Groups-map",
+    "_type": "visualization",
+    "_source": {
+      "title": "Groups map",
+      "visState": "{\"title\":\"Groups map\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"wms\":{\"enabled\":true,\"url\":\"http://ows-tile.terrestris.de/osm-basemap/service\",\"options\":{\"version\":\"1.1.1\",\"layers\":\"OSM-WMS\",\"format\":\"image/jpeg\",\"transparent\":true,\"attribution\":\"\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"group_id\",\"customLabel\":\"Groups\"}},{\"id\":\"2\",\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"precision\":2,\"customLabel\":\"Location\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Events-map",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events map",
+      "visState": "{\"title\":\"Events map\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":16,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"heatNormalizeData\":true,\"wms\":{\"enabled\":true,\"url\":\"http://ows-tile.terrestris.de/osm-basemap/service\",\"options\":{\"version\":\"1.1.1\",\"layers\":\"OSM-WMS\",\"format\":\"image/jpeg\",\"transparent\":true,\"attribution\":\"\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"event_id\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":true,\"precision\":2,\"customLabel\":\"Location\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-global-topics",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 global topics",
+      "visState": "{\"title\":\"Top 10 global topics\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"counter\",\"customLabel\":\"Count\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"topic_name\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Topic\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"spy\":{\"mode\":{\"name\":null,\"fill\":false}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_global_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Members-by-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Members by country",
+      "visState": "{\"title\":\"Members\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"members\",\"customLabel\":\"Members\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"group_country\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-15-cities-by-group",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 15 cities by group",
+      "visState": "{\"title\":\"Top 15 groups by city\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"group_id\",\"customLabel\":\"Groups\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"group_city\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"City\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Total-Topics",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Topics",
+      "visState": "{\"title\":\"Total Topics\",\"type\":\"metric\",\"params\":{\"fontSize\":\"85\",\"handleNoResults\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"topic_name\",\"customLabel\":\"Topics\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_global_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Events-by-group-and-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events by group and country",
+      "visState": "{\"title\":\"Events by group and country\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"events\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"group_name\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Groups\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"group_country\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Events-by-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events by country",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"event_id\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"group_country\",\"size\":14,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Events-counts",
+    "_type": "visualization",
+    "_source": {
+      "title": "Events counts",
+      "visState": "{\"title\":\"Events counts\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"47\"},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"event_id\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"attendees\",\"customLabel\":\"Attendees\"}},{\"id\":\"3\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"guests\",\"customLabel\":\"Guests\"}},{\"id\":\"4\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"responses\",\"customLabel\":\"Responses\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Groups-ampersand-members",
+    "_type": "visualization",
+    "_source": {
+      "title": "Groups & members",
+      "visState": "{\"title\":\"Groups & members\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"38\"},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"group_id\",\"customLabel\":\"Groups\"}},{\"id\":\"2\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"members\",\"customLabel\":\"Members\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Attendees-by-group-and-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Attendees by group and country",
+      "visState": "{\"title\":\"Attendees by group and country\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"attendees\",\"customLabel\":\"Attendees\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"group_name\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Group\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"group_country\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"us\":\"#629E51\",\"ec\":\"#F9934E\",\"au\":\"#EAB839\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Responses-by-event-and-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Responses by event and country",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"responses\",\"customLabel\":\"Responses\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"event_name\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Event\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"group_country\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Attendees-by-event-and-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Attendees by event and country",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"attendees\",\"customLabel\":\"Attendees\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"event_name\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Event\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"group_country\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Groups-by-date",
+    "_type": "visualization",
+    "_source": {
+      "title": "Groups by date",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"group_id\",\"customLabel\":\"Groups\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"date\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-15-countries-by-event",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 15 countries by event",
+      "visState": "{\"title\":\"Top 15 events by country\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"event_id\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"group_country\",\"size\":14,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-15-cities-by-event",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 15 cities by event",
+      "visState": "{\"title\":\"Top 15 events by city\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"event_id\",\"customLabel\":\"Events\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"group_city\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"City\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_events\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Members-by-date",
+    "_type": "visualization",
+    "_source": {
+      "title": "Members by date",
+      "visState": "{\"title\":\"Members by date\",\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"members\",\"customLabel\":\"Members\"}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"date\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Time\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_groups\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Top-10-topics-by-country",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top 10 topics by country",
+      "visState": "{\"title\":\"Top 10 topics by country\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"counter\",\"customLabel\":\"Count\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"topic_name\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Topic\"}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"country\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"meetup_country_trending_topics\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Index-meetup",
+    "_type": "visualization",
+    "_source": {
+      "title": "Index meetup",
+      "visState": "{\"title\":\"Index meetup\",\"type\":\"markdown\",\"params\":{\"markdown\":\"##Meetup\\n\\n####Real time:\\n\\n[- Responses](/#/dashboard/Responses-Dashboard)\\n\\n[- Topics](/#/dashboard/Trending-topics-Dashboard)\\n\\n####Batch process:\\n\\n[- Groups](/#/dashboard/Groups-Dashboard)\\n\\n[- Events](/#/dashboard/Events-Dashboard)\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
+]

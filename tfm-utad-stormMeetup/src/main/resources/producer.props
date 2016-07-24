@@ -1,0 +1,4 @@
+producer.type=async
+request.required.acks=0
+serializer.class=kafka.serializer.StringEncoder
+
